@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #5320c5;
+  color: white;
+}
+
+.navMenuContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.navigationButton {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navigationButton:hover {
+  transform: scale(1.05);
+  background-color: tomato;
+  color: white;
+}
+
+/* Stylings for Homepage */
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f3d56;
+  color: white;
+}
+
+.myName {
+  font-size: 3em;
+  margin-bottom: 0.5rem;
+}
+
+.myDesignation {
+  font-size: 1.5em;
+}
+
+/* Stylings for Hompepage ends  */
+
+/* Stylings for Aboutpage */
+
+section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d2f15d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutSection {
+  width: 60vw;
+}
+
+.aboutHead {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2em;
+}
+
+.aboutContent {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.aboutContent p {
+  text-align: justify;
+}
+
+/* Stylings for Aboutpage ends */
+
+/* Stylings for Contactpage */
+
+footer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0c7ff;
+}
+
+footer label {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.contactHead {
+  margin-bottom: 1rem;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nameContainer {
+  display: flex;
+  gap: 2vw;
+}
+
+.fnameContainer, .lnameContainer {
+  display: flex;
+  flex-direction: column;
+} 
+
+.inputFields {
+  width: 20vw;
+  height: 5vh;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 0.3rem;
+  padding-left: 0.5rem;
+}
+
+.emailMsgContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputFields1 {
+  width: 42vw;
+  height: 5vh;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 0.3rem;
+  padding-left: 0.5rem;
+}
+
+.inputFields2 {
+  width: 42vw;
+  height: 15vh;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+
+.btnSubmit {
+  width: 42vw;
+  height: 5vh;
+  margin-top: 1.5rem;
+  border: 1px solid rgb(98, 131, 204);
+  background-color: rgb(98, 131, 204);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+/* Stylings for Contactpage ends */
