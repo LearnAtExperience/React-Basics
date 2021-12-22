@@ -1,3 +1,12 @@
+# React Basics
+## Simple 3 page Web Application 
+### Built using basic react properties such as props, routing, useState and useEffect
+
+I have deployed it on netlify. Kindly have a look on it.
+
+https://reactbasics-learnatexperience.netlify.app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
